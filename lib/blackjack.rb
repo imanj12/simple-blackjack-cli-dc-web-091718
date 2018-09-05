@@ -30,7 +30,10 @@ def end_game(card_total)
 end
 
 def initial_round
-  2.times do deal_card
+  first = deal_card
+  second = deal_card
+  card_total = first + second
+  display_card_total(card_total)
   end
   
   # code #initial_round here
