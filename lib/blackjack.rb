@@ -47,6 +47,8 @@ def hit?(card_total)
   elsif input != "h" && input != "s"
     invalid_command
     prompt_user
+  else
+    return card_total
   end
   # code hit? here
 end
