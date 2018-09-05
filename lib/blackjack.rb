@@ -40,6 +40,7 @@ end
 
 def hit?
   # code hit? here
+  
 end
 
 def invalid_command
